@@ -1,10 +1,11 @@
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.2.0
+    # ref: https://pre-commit.com/
     hooks:
-    -   id: trailing-whitespace  # Removes trailing whitespace
-    -   id: end-of-file-fixer  # Ensures files end with a newline
-    -   id: check-yaml  # Checks YAML files for syntax errors
-    -   id: check-added-large-files  # Prevents adding large files
-    -   id: check-merge-conflict  # Detects merge conflict markers
-    -   id: debug-statements  # Detects debug statements (e.g., print, pdb)
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+    -   id: check-added-large-files
+    -   id: check-merge-conflict
+    -   id: debug-statements
