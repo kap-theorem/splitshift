@@ -1,0 +1,13 @@
+# Pre-commit
+pre-commit
+
+# Formatting & code quality
+black
+isort
+pyupgrade
+
+# Type checking & linting
+mypy
+ruff
+flake8
+flake8-fastapi
