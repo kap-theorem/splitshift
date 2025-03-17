@@ -11,3 +11,6 @@ mypy
 ruff
 flake8
 flake8-fastapi
+
+# model validation an serialization
+pydantic
