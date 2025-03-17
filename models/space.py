@@ -1,12 +1,13 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
-from models.user import User
 from models.event import Event
+from models.user import User
+
 
 class Space(BaseModel):
     id: int
     name: str
     description: str
     users: list[User]
-    spaces: list['Space']
+    spaces: list["Space"]
     events: list[Event]

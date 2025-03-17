@@ -1,6 +1,7 @@
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 
 from models.user import User
+
 
 class Event(BaseModel):
     id: int
